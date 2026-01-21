@@ -15,8 +15,8 @@ const NoteForm = ({addNote}) => {
     }
   }
   return (
-    <div className="input-section">
-      <form onSubmit={handleSubmit}>
+    <div className=" note-card-container">
+      <form className="note-form" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Start Writing Text..."
